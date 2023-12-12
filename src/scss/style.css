@@ -6,10 +6,24 @@ button {
   border-style: none;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .promo-section {
   background: url(../img/bg/bg-women.png) center center/cover no-repeat;
   min-height: 650px;
   padding-top: 21px;
+}
+.promo-section-logo {
+  width: 251px;
+}
+.promo-section-logo-link {
+  width: 100%;
+}
+.promo-section-logo-link img {
+  width: 100%;
 }
 .promo-section-middle-part {
   display: -webkit-box;
@@ -26,14 +40,14 @@ button {
       -ms-flex-align: center;
           align-items: center;
 }
-.promo-section-middle-part:first-child {
+.promo-section-middle-part div:first-child {
   color: #FFF;
   text-align: center;
   font-size: 12px;
   font-style: normal;
   font-weight: 500;
 }
-.promo-section-middle-part:last-child {
+.promo-section-middle-part div:last-child {
   color: #FFF;
   text-align: center;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -61,6 +75,9 @@ button {
   font-style: normal;
   font-weight: 700;
 }
+.promo-section-telefone-number:hover {
+  color: #FFF;
+}
 .promo-section-telefone button {
   width: 153px;
   height: 32px;
@@ -86,9 +103,9 @@ button {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
   margin-left: 71px;
 }
 .promo-section-main-part-title h1 {
@@ -177,21 +194,16 @@ button {
   display: -ms-flexbox;
   display: flex;
   margin-top: 10px;
-}
-.promo-section-main-part-button .conection div {
-  color: #FFF;
   font-size: 16px;
+  color: #FFF;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+.promo-section-main-part-button .conection div {
   margin-right: 6px;
 }
 .promo-section-main-part-button .conection a {
-  color: #FFF;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
   text-decoration-line: underline;
   text-transform: uppercase;
 }
@@ -248,4 +260,175 @@ button {
 .advantage-section-item p span {
   color: #F00;
   text-decoration-line: underline;
+}
+
+.consultation-section {
+  background: url(../img/bg/bg-snikers.png) center center/cover no-repeat;
+  min-height: 680px;
+  padding-top: 100px;
+}
+.consultation-section-title {
+  color: #FFF;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px; /* 150% */
+  text-transform: uppercase;
+}
+.consultation-section-text-form {
+  color: #FFF;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 150% */
+  margin-top: 8px;
+}
+.consultation-section .feed-form {
+  margin-top: 36px;
+  width: 303px;
+}
+.consultation-section .feed-form input {
+  margin-bottom: 10px;
+  width: 100%;
+  height: 54px;
+  border: none;
+  padding: 0px 20px;
+  color: #4B4B4B;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 66px; /* 471.429% */
+}
+.consultation-section .feed-form button {
+  width: 100%;
+  height: 58px;
+  background-color: #C70101;
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  border-radius: 6px;
+  margin-top: 8px;
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .promo-section-main-part-title h1 {
+    font-size: 34px;
+    line-height: 34px;
+  }
+  .promo-section-main-part-title h2 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .promo-section-telefone-number {
+    font-size: 17px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .promo-section-main-part-title h1 {
+    font-size: 34px;
+    line-height: 34px;
+  }
+  .promo-section-main-part-title h2 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .promo-section-logo {
+    width: 200px;
+  }
+  .promo-section-middle-part div:first-child {
+    font-size: 10px;
+  }
+  .promo-section-middle-part div:last-child {
+    font-size: 16px;
+  }
+  .promo-section-main-part-title h1 {
+    font-size: 34px;
+    line-height: 34px;
+  }
+  .promo-section-main-part-title h2 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .promo-section-telefone-number {
+    font-size: 14px;
+  }
+  .promo-section-telefone button {
+    width: 135px;
+    font-style: 11px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .promo-section-logo {
+    width: 200px;
+  }
+  .promo-section .display-none {
+    display: none;
+  }
+  .promo-section-main-part-title h1 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .promo-section-main-part-title h2 {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .promo-section-telefone-number {
+    font-size: 14px;
+  }
+  .promo-section-telefone button {
+    width: 135px;
+    font-size: 11px;
+  }
+  .promo-section-main-part-preference-item {
+    margin-right: 0px;
+    margin-left: 50px;
+  }
+  .promo-section-main-part-button button {
+    width: 250px;
+    height: 45px;
+    font-size: 14px;
+  }
+  .promo-section-main-part-button .conection {
+    font-size: 14px;
+  }
+}
+@media (min-width: 320px) and (max-width: 575px) {
+  .promo-section-logo {
+    width: 150px;
+  }
+  .promo-section .display-none {
+    display: none;
+  }
+  .promo-section-main-part-title h1 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .promo-section-main-part-title h2 {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .promo-section-telefone-number {
+    font-size: 12px;
+  }
+  .promo-section-telefone button {
+    width: 110px;
+    font-size: 10px;
+  }
+  .promo-section-main-part-preference-item {
+    margin: 0px 15px;
+  }
+  .promo-section-main-part-button button {
+    width: 250px;
+    height: 45px;
+    font-size: 14px;
+  }
+  .promo-section-main-part-button .conection {
+    font-size: 14px;
+  }
 }/*# sourceMappingURL=style.css.map */

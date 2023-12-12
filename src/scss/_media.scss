@@ -1,0 +1,172 @@
+@media (min-width:1200px) and (max-width:1400px) {
+    .promo-section {
+        &-main-part {
+            &-title {
+                h1 {
+                    font-size: 34px;
+                    line-height: 34px;
+                }
+                h2 {
+                    font-size:20px;
+                    line-height: 20px;
+                }
+            }
+        }
+        &-telefone {
+            &-number {
+                font-size: 17px;
+            }
+        }
+    }
+}
+@media (min-width:992px) and (max-width:1199px) {
+    .promo-section {
+        &-main-part {
+            &-title {
+                h1 {
+                    font-size: 34px;
+                    line-height: 34px;
+                }
+                h2 {
+                    font-size:20px;
+                    line-height: 20px;
+                }
+            }
+        }
+    }
+}
+@media (min-width:768px) and (max-width:991px) {
+    .promo-section {
+        &-logo {
+            width: 200px;
+
+        }
+        &-middle-part {
+            & div:first-child {
+                font-size: 10px;
+            }
+            & div:last-child {
+                font-size: 16px;
+            }
+        }
+        &-main-part {
+            &-title {
+                h1 {
+                    font-size: 34px;
+                    line-height: 34px;
+                }
+                h2 {
+                    font-size:20px;
+                    line-height: 20px;
+                }
+            }
+        }
+        &-telefone {
+            &-number {
+                font-size: 14px;
+            }
+            button {
+                width: 135px;
+                font-style: 11px;
+            }
+        }
+    }
+}
+@media (min-width:576px) and (max-width:767px) {
+    .promo-section {
+        &-logo {
+            width: 200px;
+        }
+        .display-none {
+            display: none;
+        }
+        &-main-part {
+            &-title {
+                h1 {
+                    font-size: 20px;
+                    line-height: 20px;
+                }
+                h2 {
+                    font-size:16px;
+                    line-height: 16px;
+                }
+            }
+        }
+        &-telefone {
+            &-number {
+                font-size: 14px;
+            }
+            button {
+                width: 135px;
+                font-size: 11px;
+            }
+        }
+        &-main-part {
+            &-preference {
+                &-item {
+                    margin-right: 0px;
+                    margin-left: 50px;
+
+                }
+            }
+            &-button {
+                button {
+                    width: 250px;
+                    height: 45px;
+                    font-size: 14px;
+                }
+                .conection {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+@media (min-width:320px) and (max-width:575px) {
+    .promo-section {
+        &-logo {
+            width:150px;
+        }
+        .display-none {
+            display: none;
+        }
+        &-main-part {
+            &-title {
+                h1 {
+                    font-size: 20px;
+                    line-height: 20px;
+                }
+                h2 {
+                    font-size:16px;
+                    line-height: 16px;
+                }
+            }
+        }
+        &-telefone {
+            &-number {
+                font-size: 12px;
+            }
+            button {
+                width: 110px;
+                font-size: 10px;
+            }
+        }
+        &-main-part {
+            &-preference {
+                &-item {
+                    margin: 0px 15px;
+                }
+            }
+            &-button {
+                button {
+                    width: 250px;
+                    height: 45px;
+                    font-size: 14px;
+                }
+                .conection {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
